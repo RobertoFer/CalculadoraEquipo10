@@ -24,11 +24,25 @@ public class Main {
 		case '+':
 			System.out.println("///////////Suma///////////////");
 
+				System.out.println(Suma.sumaR2(5, 4.5));
+
+				System.out.println(Suma.sumarE2(5, 7));
+
+				System.out.println(Suma.sumaR3(4.5, 7.8, 4.3));
+
+				System.out.println(Suma.acumulador = Suma.acumulador + Suma.sumaR3(4.5, 7.8, 4.3) + Suma.sumarE2(5, 7) + +Suma.sumaR2(5, 4.5));
+
 			break;
 			
 		case '-':
 			System.out.println("///////////Resta///////////");
-			
+			System.out.println(Resta.restaR2(5, 4.5));
+
+			System.out.println(Resta.restaE2(5, 7));
+
+			System.out.println(Resta.restaR3(4.5, 7.8, 4.3));
+
+			System.out.println(Resta.acumulador = Suma.acumulador + Suma.sumaR3(4.5, 7.8, 4.3) - Suma.sumarE2(5, 7) - Suma.sumaR2(5, 4.5));
 			break;
 			
 		case '*':
@@ -40,7 +54,7 @@ public class Main {
 			System.out.println("///////////Division///////////");
 
 			break;
-		}
+		} 
 		
 		
 		

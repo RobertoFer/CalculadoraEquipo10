@@ -27,7 +27,7 @@ public class Resta {
 		/**
 		 * Alamacena los valores acumulados y se los pasa a la funcion acumular.
 		*/
-		private double acumulador  = 0;
+		static double acumulador  = 0;
 	
 		
 		/**
@@ -38,8 +38,8 @@ public class Resta {
 		 * 
 		 * @return Devuelve el resultado de la resta de los 2 parametros;
 		 */
-		public double restaR2(double numero1,double numero2) {
-			return (Integer) null;
+		public static double restaR2(double numero1,double numero2) {
+			return numero1-numero2;
 		}
 		
 		
@@ -51,8 +51,8 @@ public class Resta {
 		 * 
 		 * @return Devuelve el resultado de la resta de los 2 parametros;
 		 */
-		public int restaE2(int numero1,int numero2) {
-			return (Integer) null;
+		public static int restaE2(int numero1,int numero2) {
+			return numero1-numero2;
 			
 		}
 		
@@ -66,8 +66,8 @@ public class Resta {
 		 * 
 		 * @return Devuelve el resultado de la resta de los 3 parametros;
 		 */
-		public double restaR3(double numero1,double numero2,double numero3) {
-			return (Integer) null;
+		public static double restaR3(double numero1,double numero2,double numero3) {
+			return numero1-numero2-numero3;
 			
 		}
 		
@@ -77,16 +77,9 @@ public class Resta {
 		 * 
 		 * @param acumulador
 		 * @return resta de todos los parametos introducidos
-		 */void acumular (double acumulador) {
-			
-		}
-
-		public double getAcumulador() {
-			return acumulador;
-		}
-
-		public void setAcumulador(double acumulador) {
-			this.acumulador = acumulador;
+		 */
+		public static double acum() {
+			return acumulador; 
 		}
 		
 		
