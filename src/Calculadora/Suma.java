@@ -28,7 +28,7 @@ public class Suma {
 	 * Alamacena los valores acumulados y se los pasa a la funcion acumular.
 	 */
 	
-	private double acumulador  = 0;
+	static double acumulador  = 0;
 	
 	/**
 	 * Metodo que devuelve la suma de 2 numeros reales positivos;
@@ -38,8 +38,8 @@ public class Suma {
 	 * 
 	 * @return Devuelve el resultado de la suma de los 2 parametros;
 	 */
-	public double sumaR2(double numero1,double numero2) {
-		num1+num2
+	public static double sumaR2(double numero1,double numero2) {
+		return numero1+numero2;
 		
 	}
 	
@@ -50,8 +50,8 @@ public class Suma {
 	 * @param numero2 Segundo parametro a sumar, tipo double
 	 * @return
 	 */
-	public int sumarE2(int numero1,int numero2) {
-		nu1
+	public static int sumarE2(int numero1,int numero2) {
+		return numero1+numero2;
 		
 	}
 	
@@ -63,29 +63,24 @@ public class Suma {
 	 * @param numero3 Tercer  parametro a sumar, tipo double
 	 * @return
 	 */
-	public double sumaR3(double numero1,double numero2,double numero3) {
-		return (Integer) null;
-		
+	public static double sumaR3(double numero1,double numero2,double numero3) {
+		return numero1+numero2+numero3;
 	}
 	
 	/**
 	 * Metodo que devuelve la suma del acumulador
 	 * 
 	 * @param acumulador
+	 * @param d 
+	 * @return 
 	 * @return suma de todos los parametos introducidos
 	 */
-
-	public void Acumular(double acumulador) {
-		
+	public static double acum() {
+		return acumulador; 
 	}
 
-	public double getAcumulador() {
-		return acumulador;
-	}
 
-	public void setAcumulador(double acumulador) {
-		this.acumulador = acumulador;
-	}
+	
 	
 	
 	
