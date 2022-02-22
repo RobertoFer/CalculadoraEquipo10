@@ -1,9 +1,11 @@
 package Calculadora;
 /**
  *  <h3> Clase Producto </h3>
- * 
- * @author Roberto_Fernandez_Aksenova
- * @version 1.0 
+ * *
+* Version 1.0 
+* autor Albert Gonzales Medina
+
+
  *
  * * Clases del Paquete:
  * @see Suma
@@ -31,8 +33,9 @@ public class Producto {
 	 * 
 	 * @return Devuelve el resultado de la multiplicacion de los 2 parametros;
 	 */
-	public double proR2(double numero1,double numero2) {
-		return (Integer) null;
+	public static double productoReales(double numero1,double numero2) {
+		return numero1*numero2;
+		
 	}
 
 	
@@ -44,8 +47,9 @@ public class Producto {
 	 * 
 	 * @return  Devuelve el resultado de la multiplicacion de los 2 parametros;
 	 */
-	public int proE2(int numero1,int numero2) {
-		return (Integer) null;
+	public static int productoEnteros2(int numero1,int numero2) {
+		return numero1*numero2;
+		
 	}
 
 	/**
@@ -57,10 +61,10 @@ public class Producto {
 	 * 
 	 * @return  Devuelve el resultado de la multiplicacion de los 3 parametros;
 	 */
-	public double pro3R(double numero1,double numero2,double numero3) {
-			return (Integer) null;
-		}
-
+	public static double productoReales3(double numero1,double numero2,double numero3) {
+		return numero1*numero2*numero3;
+		
+	}
 	/**
 	 * Metodo que tealiza la potencia del parametro real intoducido;
 	 * 
@@ -72,8 +76,18 @@ public class Producto {
 	 * 
 	 * @return  Devuelve la potencia del numero introducido
 	 */
-	public void potencia(double base, double exponenete) {
+	public static double potenciaReales(double x,double z) {
+		double resultado=1;
+		for(int i=0;i<=z;i++) {
+			resultado=resultado*x;
+		}
+		return resultado;
 		
 	}
 /** Final Clase Producto*/
 }
+
+
+
+
+

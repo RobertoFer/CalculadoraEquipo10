@@ -48,6 +48,11 @@ public class Main {
 		case '*':
 			System.out.println("///////////Multiplicacion///////////");
 
+			System.out.println(Producto.productoReales(5.2, 4.3));
+			System.out.println(Producto.productoReales3(3.5, 2.7, 9.4));
+			System.out.println(Producto.productoEnteros2(4, 132));
+			System.out.println(Producto.potenciaReales(4, 23));
+   
 			break;
 			
 		case '/':
